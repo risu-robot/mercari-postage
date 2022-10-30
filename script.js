@@ -3,10 +3,10 @@ document.getElementById("yuuyuu").style.display = "none";
 document.getElementById("tanomeru").style.display = "none";
 
 function displayReset() {
-  const x_css = document.getElementById("x-message");
-  const y_css = document.getElementById("y-message");
-  const z_css = document.getElementById("z-message");
-  const mass_css = document.getElementById("mass-message");
+  const x_css = document.getElementById('x-message');
+  const y_css = document.getElementById('y-message');
+  const z_css = document.getElementById('z-message');
+  const mass_css = document.getElementById('mass-message');
   x_css.style.background = "white";
   x_css.style.borderColor = "gray";
   y_css.style.background = "white";
@@ -25,10 +25,10 @@ function displayReset() {
 }
 
 function result() {
-  const x_css = document.getElementById("x-message");
-  const y_css = document.getElementById("y-message");
-  const z_css = document.getElementById("z-message");
-  const mass_css = document.getElementById("mass-essage");
+  const x_css = document.getElementById('x-message');
+  const y_css = document.getElementById('y-message');
+  const z_css = document.getElementById('z-message');
+  const mass_css = document.getElementById('mass-message');
   x_css.style.background = "white";
   x_css.style.borderColor = "gray";
   y_css.style.background = "white";
@@ -299,22 +299,22 @@ function result() {
     document.getElementById("sub-message").innerHTML = output2;
 
     if (x <= 0) {
-      const x_css = document.getElementById("x-message");
+      const x_css = document.getElementById('x-message');
       x_css.style.background = "pink";
       x_css.style.borderColor = "red";
     }
     if (y <= 0) {
-      const y_css = document.getElementById("y-message");
+      const y_css = document.getElementById('y-message');
       y_css.style.background = "pink";
       y_css.style.borderColor = "red";
     }
     if (z <= 0) {
-      const z_css = document.getElementById("z-message");
+      const z_css = document.getElementById('z-message');
       z_css.style.background = "pink";
       z_css.style.borderColor = "red";
     }
     if (mass <= 0) {
-      const mass_css = document.getElementById("mass-message");
+      const mass_css = document.getElementById('mass-message');
       mass_css.style.background = "pink";
       mass_css.style.borderColor = "red";
     }
